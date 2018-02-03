@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF80E9CA2024658600A928DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80E9C92024658600A928DF /* AppDelegate.m */; };
+		CF80E9CD2024658600A928DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80E9CC2024658600A928DF /* ViewController.m */; };
+		CF80E9D02024658600A928DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF80E9CE2024658600A928DF /* Main.storyboard */; };
+		CF80E9D22024658600A928DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF80E9D12024658600A928DF /* Assets.xcassets */; };
+		CF80E9D52024658600A928DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF80E9D32024658600A928DF /* LaunchScreen.storyboard */; };
+		CF80E9D82024658600A928DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80E9D72024658600A928DF /* main.m */; };
+		CF80E9E22024658600A928DF /* FSMSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80E9E12024658600A928DF /* FSMSystemTests.m */; };
+		CF80E9ED2024658600A928DF /* FSMSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80E9EC2024658600A928DF /* FSMSystemUITests.m */; };
+		CF80E9FD202465AB00A928DF /* FSMSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80E9FC202465AB00A928DF /* FSMSystem.m */; };
+		CF80EA042024700400A928DF /* NSMutableDictionary+FSMSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80EA032024700400A928DF /* NSMutableDictionary+FSMSystem.m */; };
+		CF80EA1A202587F900A928DF /* ReadyState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80EA19202587F900A928DF /* ReadyState.m */; };
+		CF80EA1D2025880B00A928DF /* StartState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80EA1C2025880B00A928DF /* StartState.m */; };
+		CF80EA202025886800A928DF /* SitUpState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80EA1F2025886800A928DF /* SitUpState.m */; };
+		CF80EA232025887E00A928DF /* SitDownState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80EA222025887E00A928DF /* SitDownState.m */; };
+		CF80EA2620258A0700A928DF /* GameOverState.m in Sources */ = {isa = PBXBuildFile; fileRef = CF80EA2520258A0700A928DF /* GameOverState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF80E9DE2024658600A928DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF80E9BD2024658600A928DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF80E9C42024658600A928DF;
+			remoteInfo = FSMSystem;
+		};
+		CF80E9E92024658600A928DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF80E9BD2024658600A928DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF80E9C42024658600A928DF;
+			remoteInfo = FSMSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF80E9C52024658600A928DF /* FSMSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSMSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF80E9C82024658600A928DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF80E9C92024658600A928DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF80E9CB2024658600A928DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF80E9CC2024658600A928DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF80E9CF2024658600A928DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF80E9D12024658600A928DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF80E9D42024658600A928DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF80E9D62024658600A928DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF80E9D72024658600A928DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF80E9DD2024658600A928DF /* FSMSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSMSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF80E9E12024658600A928DF /* FSMSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMSystemTests.m; sourceTree = "<group>"; };
+		CF80E9E32024658600A928DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF80E9E82024658600A928DF /* FSMSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSMSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF80E9EC2024658600A928DF /* FSMSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMSystemUITests.m; sourceTree = "<group>"; };
+		CF80E9EE2024658600A928DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF80E9FB202465AB00A928DF /* FSMSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMSystem.h; sourceTree = "<group>"; };
+		CF80E9FC202465AB00A928DF /* FSMSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMSystem.m; sourceTree = "<group>"; };
+		CF80EA022024700400A928DF /* NSMutableDictionary+FSMSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FSMSystem.h"; sourceTree = "<group>"; };
+		CF80EA032024700400A928DF /* NSMutableDictionary+FSMSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FSMSystem.m"; sourceTree = "<group>"; };
+		CF80EA18202587F900A928DF /* ReadyState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadyState.h; sourceTree = "<group>"; };
+		CF80EA19202587F900A928DF /* ReadyState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadyState.m; sourceTree = "<group>"; };
+		CF80EA1B2025880B00A928DF /* StartState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartState.h; sourceTree = "<group>"; };
+		CF80EA1C2025880B00A928DF /* StartState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartState.m; sourceTree = "<group>"; };
+		CF80EA1E2025886800A928DF /* SitUpState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SitUpState.h; sourceTree = "<group>"; };
+		CF80EA1F2025886800A928DF /* SitUpState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SitUpState.m; sourceTree = "<group>"; };
+		CF80EA212025887E00A928DF /* SitDownState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SitDownState.h; sourceTree = "<group>"; };
+		CF80EA222025887E00A928DF /* SitDownState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SitDownState.m; sourceTree = "<group>"; };
+		CF80EA2420258A0700A928DF /* GameOverState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOverState.h; sourceTree = "<group>"; };
+		CF80EA2520258A0700A928DF /* GameOverState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOverState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF80E9C22024658600A928DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80E9DA2024658600A928DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80E9E52024658600A928DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF80E9BC2024658600A928DF = {
+			isa = PBXGroup;
+			children = (
+				CF80E9C72024658600A928DF /* FSMSystem */,
+				CF80E9E02024658600A928DF /* FSMSystemTests */,
+				CF80E9EB2024658600A928DF /* FSMSystemUITests */,
+				CF80E9C62024658600A928DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF80E9C62024658600A928DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF80E9C52024658600A928DF /* FSMSystem.app */,
+				CF80E9DD2024658600A928DF /* FSMSystemTests.xctest */,
+				CF80E9E82024658600A928DF /* FSMSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF80E9C72024658600A928DF /* FSMSystem */ = {
+			isa = PBXGroup;
+			children = (
+				CF80E9FA2024659B00A928DF /* FSMSystem */,
+				CF80EA0520255AF000A928DF /* FSMState */,
+				CF80E9C82024658600A928DF /* AppDelegate.h */,
+				CF80E9C92024658600A928DF /* AppDelegate.m */,
+				CF80E9CB2024658600A928DF /* ViewController.h */,
+				CF80E9CC2024658600A928DF /* ViewController.m */,
+				CF80E9CE2024658600A928DF /* Main.storyboard */,
+				CF80E9D12024658600A928DF /* Assets.xcassets */,
+				CF80E9D32024658600A928DF /* LaunchScreen.storyboard */,
+				CF80E9D62024658600A928DF /* Info.plist */,
+				CF80E9D72024658600A928DF /* main.m */,
+			);
+			path = FSMSystem;
+			sourceTree = "<group>";
+		};
+		CF80E9E02024658600A928DF /* FSMSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF80E9E12024658600A928DF /* FSMSystemTests.m */,
+				CF80E9E32024658600A928DF /* Info.plist */,
+			);
+			path = FSMSystemTests;
+			sourceTree = "<group>";
+		};
+		CF80E9EB2024658600A928DF /* FSMSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF80E9EC2024658600A928DF /* FSMSystemUITests.m */,
+				CF80E9EE2024658600A928DF /* Info.plist */,
+			);
+			path = FSMSystemUITests;
+			sourceTree = "<group>";
+		};
+		CF80E9FA2024659B00A928DF /* FSMSystem */ = {
+			isa = PBXGroup;
+			children = (
+				CF80E9FB202465AB00A928DF /* FSMSystem.h */,
+				CF80E9FC202465AB00A928DF /* FSMSystem.m */,
+				CF80EA022024700400A928DF /* NSMutableDictionary+FSMSystem.h */,
+				CF80EA032024700400A928DF /* NSMutableDictionary+FSMSystem.m */,
+			);
+			path = FSMSystem;
+			sourceTree = "<group>";
+		};
+		CF80EA0520255AF000A928DF /* FSMState */ = {
+			isa = PBXGroup;
+			children = (
+				CF80EA1E2025886800A928DF /* SitUpState.h */,
+				CF80EA1F2025886800A928DF /* SitUpState.m */,
+				CF80EA212025887E00A928DF /* SitDownState.h */,
+				CF80EA222025887E00A928DF /* SitDownState.m */,
+				CF80EA18202587F900A928DF /* ReadyState.h */,
+				CF80EA19202587F900A928DF /* ReadyState.m */,
+				CF80EA1B2025880B00A928DF /* StartState.h */,
+				CF80EA1C2025880B00A928DF /* StartState.m */,
+				CF80EA2420258A0700A928DF /* GameOverState.h */,
+				CF80EA2520258A0700A928DF /* GameOverState.m */,
+			);
+			path = FSMState;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF80E9C42024658600A928DF /* FSMSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF80E9F12024658600A928DF /* Build configuration list for PBXNativeTarget "FSMSystem" */;
+			buildPhases = (
+				CF80E9C12024658600A928DF /* Sources */,
+				CF80E9C22024658600A928DF /* Frameworks */,
+				CF80E9C32024658600A928DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSMSystem;
+			productName = FSMSystem;
+			productReference = CF80E9C52024658600A928DF /* FSMSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF80E9DC2024658600A928DF /* FSMSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF80E9F42024658600A928DF /* Build configuration list for PBXNativeTarget "FSMSystemTests" */;
+			buildPhases = (
+				CF80E9D92024658600A928DF /* Sources */,
+				CF80E9DA2024658600A928DF /* Frameworks */,
+				CF80E9DB2024658600A928DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF80E9DF2024658600A928DF /* PBXTargetDependency */,
+			);
+			name = FSMSystemTests;
+			productName = FSMSystemTests;
+			productReference = CF80E9DD2024658600A928DF /* FSMSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF80E9E72024658600A928DF /* FSMSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF80E9F72024658600A928DF /* Build configuration list for PBXNativeTarget "FSMSystemUITests" */;
+			buildPhases = (
+				CF80E9E42024658600A928DF /* Sources */,
+				CF80E9E52024658600A928DF /* Frameworks */,
+				CF80E9E62024658600A928DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF80E9EA2024658600A928DF /* PBXTargetDependency */,
+			);
+			name = FSMSystemUITests;
+			productName = FSMSystemUITests;
+			productReference = CF80E9E82024658600A928DF /* FSMSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF80E9BD2024658600A928DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Paean;
+				TargetAttributes = {
+					CF80E9C42024658600A928DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CF80E9DC2024658600A928DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF80E9C42024658600A928DF;
+					};
+					CF80E9E72024658600A928DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF80E9C42024658600A928DF;
+					};
+				};
+			};
+			buildConfigurationList = CF80E9C02024658600A928DF /* Build configuration list for PBXProject "FSMSystem" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF80E9BC2024658600A928DF;
+			productRefGroup = CF80E9C62024658600A928DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF80E9C42024658600A928DF /* FSMSystem */,
+				CF80E9DC2024658600A928DF /* FSMSystemTests */,
+				CF80E9E72024658600A928DF /* FSMSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF80E9C32024658600A928DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF80E9D52024658600A928DF /* LaunchScreen.storyboard in Resources */,
+				CF80E9D22024658600A928DF /* Assets.xcassets in Resources */,
+				CF80E9D02024658600A928DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80E9DB2024658600A928DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80E9E62024658600A928DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF80E9C12024658600A928DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF80E9CD2024658600A928DF /* ViewController.m in Sources */,
+				CF80EA232025887E00A928DF /* SitDownState.m in Sources */,
+				CF80EA1A202587F900A928DF /* ReadyState.m in Sources */,
+				CF80EA042024700400A928DF /* NSMutableDictionary+FSMSystem.m in Sources */,
+				CF80E9FD202465AB00A928DF /* FSMSystem.m in Sources */,
+				CF80E9D82024658600A928DF /* main.m in Sources */,
+				CF80EA202025886800A928DF /* SitUpState.m in Sources */,
+				CF80EA2620258A0700A928DF /* GameOverState.m in Sources */,
+				CF80EA1D2025880B00A928DF /* StartState.m in Sources */,
+				CF80E9CA2024658600A928DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80E9D92024658600A928DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF80E9E22024658600A928DF /* FSMSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80E9E42024658600A928DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF80E9ED2024658600A928DF /* FSMSystemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF80E9DF2024658600A928DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF80E9C42024658600A928DF /* FSMSystem */;
+			targetProxy = CF80E9DE2024658600A928DF /* PBXContainerItemProxy */;
+		};
+		CF80E9EA2024658600A928DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF80E9C42024658600A928DF /* FSMSystem */;
+			targetProxy = CF80E9E92024658600A928DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF80E9CE2024658600A928DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF80E9CF2024658600A928DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF80E9D32024658600A928DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF80E9D42024658600A928DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF80E9EF2024658600A928DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF80E9F02024658600A928DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF80E9F22024658600A928DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD33HMK68D;
+				INFOPLIST_FILE = FSMSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisw.FSMSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF80E9F32024658600A928DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DD33HMK68D;
+				INFOPLIST_FILE = FSMSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisw.FSMSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF80E9F52024658600A928DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSMSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcc.FSMSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSMSystem.app/FSMSystem";
+			};
+			name = Debug;
+		};
+		CF80E9F62024658600A928DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSMSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcc.FSMSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSMSystem.app/FSMSystem";
+			};
+			name = Release;
+		};
+		CF80E9F82024658600A928DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSMSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcc.FSMSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSMSystem;
+			};
+			name = Debug;
+		};
+		CF80E9F92024658600A928DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSMSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcc.FSMSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSMSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF80E9C02024658600A928DF /* Build configuration list for PBXProject "FSMSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF80E9EF2024658600A928DF /* Debug */,
+				CF80E9F02024658600A928DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF80E9F12024658600A928DF /* Build configuration list for PBXNativeTarget "FSMSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF80E9F22024658600A928DF /* Debug */,
+				CF80E9F32024658600A928DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF80E9F42024658600A928DF /* Build configuration list for PBXNativeTarget "FSMSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF80E9F52024658600A928DF /* Debug */,
+				CF80E9F62024658600A928DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF80E9F72024658600A928DF /* Build configuration list for PBXNativeTarget "FSMSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF80E9F82024658600A928DF /* Debug */,
+				CF80E9F92024658600A928DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF80E9BD2024658600A928DF /* Project object */;
+}
